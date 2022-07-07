@@ -41,5 +41,18 @@
       "imagen": "http://localhost:3000/Icon5.png"
     }
   ],
-  "compras": []
+  "compras": [
+    {
+      "itemsId": [2],
+      "id": 7
+    },
+    {
+      "itemsId": [2, 1, 5],
+      "id": 8
+    },
+    {
+      "itemsId": [3, 2],
+      "id": 9
+    }
+  ]
 }
