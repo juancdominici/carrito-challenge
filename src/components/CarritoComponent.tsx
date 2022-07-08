@@ -58,7 +58,8 @@ export const CarritoComponent = (props: { setShowCarrito: Function }) => {
       </ul>
       <button
         onClick={comprar}
-        className="bg-violet-600 rounded-full m-2 p-1 px-8 "
+        className="bg-violet-600 rounded-full m-2 p-1 px-8 disabled:opacity-50 disabled:cursor-not-allowed"
+        disabled={carrito.length === 0}
       >
         <span className="text-white font-bold mx-4">Comprar</span>
       </button>
